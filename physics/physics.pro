@@ -5,7 +5,7 @@
 TEMPLATE = app
 TARGET = physics
 CONFIG += debug
-INCLUDEPATH += package/soil /usr/local/include/bullet /usr/include/bullet
+INCLUDEPATH += package/soil /usr/local/include/bullet /usr/include/bullet $(BULLET_PATH)
 OBJECTS_DIR = obj
 LIBS += -lBulletDynamics -lBulletCollision -lLinearMath -lSDL2 -lGLEW -lGLU -lGL -L/usr/local/lib/
 # Input

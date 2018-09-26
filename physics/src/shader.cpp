@@ -3,6 +3,8 @@
 #include <string.h>
 #include <iostream>
 #include <stdlib.h>
+
+#define GLM_ENABLE_EXPERIMENTAL
 #include <glm/gtx/transform.hpp>
 
 using namespace std;
